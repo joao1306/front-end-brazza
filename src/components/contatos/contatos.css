@@ -1,0 +1,215 @@
+.corpo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.logo{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo-contato{
+    width: 60%;
+    z-index: 1;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -3;
+
+}
+
+.fundo{
+    width: 100%;
+    height: 100%;
+}
+
+.info{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-box > h1{
+    color:white;
+    font-family: 'FORQUE', sans-serif;
+    font-size: 8rem;
+    margin-bottom: 3vh;
+}
+
+.line{
+    width: 14vw;
+    height: 0.2vh;
+    background-color: white;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+p{
+    color: white;
+    margin-bottom: 2vh;
+    font-family: 'Futura', sans-serif;
+    font-size: 2.3rem;
+}
+
+.dia{
+    color: rgb(255,195,56);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.hora{
+    color: rgb(255,195,56);
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.icon-box{
+    color: white;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 4rem;
+    margin-top: 6vh;
+}
+
+.i {
+    width: 3vw;
+}
+
+.ifood-icon{
+    width: 4.4vw;
+}
+
+.link-contato{
+    margin-inline: 3vw;
+    transition: 0.3s;
+}
+
+.link-contato:hover{
+    padding-bottom: 2.5vh;
+}
+
+.chamada{
+    margin-top: 0;
+}
+
+.embrazzar{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255,195,56);
+}
+
+.divisoria{
+    width: 100vw;
+    height: 12vh;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to bottom, #000000, #00000000);
+    z-index: 10;
+}
+
+
+@media (max-width: 361px){
+
+    #corpo_contatos{
+        flex-direction: column;
+    }
+
+    .background{
+        overflow-x: hidden;
+    }
+
+    .fundo{
+        width: 350vw;
+        margin-left: -20vw;
+    }
+
+    .logo{
+        height: 40vh;
+        width: 110vw;
+        margin-bottom: 0;
+    }
+
+    .info{
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .info-box > h1{
+        color:white;
+        font-family: 'FORQUE', sans-serif;
+        font-size: 5rem;
+        margin-bottom: 3vh;
+        margin-top: 2vh;
+    }
+
+    .line{
+        width: 30vw;
+    }
+
+    p{
+        color: white;
+        margin-bottom: 3vh;
+        font-family: 'Futura', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 2.5rem;
+    }
+
+    .dia{
+        font-size: 2rem;
+    }
+
+    .icon-box{
+        width: 70vw;
+        height: 5vh;
+        justify-content: space-between;
+        margin-top: 1vh;
+    }
+
+    .i{
+        width: 6vw;
+    }
+
+    .ifood-icon{
+        width: 10vw;
+    }
+
+    .chamada{
+        font-size: 1.5rem;
+    }
+
+    .embrazzar{
+        font-size: 2rem;
+    }
+}

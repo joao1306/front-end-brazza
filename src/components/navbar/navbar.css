@@ -1,0 +1,113 @@
+.navbar{
+    height: 13vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+}
+
+.background-navbar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.925)
+}
+
+.logo-nav{
+    width: 100px;
+    margin-left: 5%;
+}
+
+.box-botoes{
+    margin-right: 5%;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botao-nav{
+    background: none;
+    outline: none;
+    border-style: none;
+    font-family: 'Futura', sans-serif;
+    color: white;
+    transition: 0.2s;
+    font-size: 2rem;
+}
+
+.botao-nav:hover{
+    border-bottom: 3px solid rgb(255,195,56);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Futura', sans-serif;
+}
+
+@media (max-width: 361px) {
+
+    .navbar{
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        z-index: 20;
+    }
+
+    .background-navbar{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-color: rgba(0, 0, 0, 0.925)
+    }
+    
+    .logo-nav{
+        margin-top: 0.2vh;
+        margin-left: 0;
+        margin-bottom: 2.5vh;
+        width: 28vw;
+    }
+    
+    .box-botoes{
+        height: 25%;
+        width: 80vw;
+        margin-right: 0;
+        margin-bottom: 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .botao-nav{
+        background: none;
+        outline: none;
+        border-style: none;
+        font-family: 'Futura', sans-serif;
+        color: white;
+        transition: 0.2s;
+        font-size: 2rem;
+    }
+    
+    .botao-nav:hover{
+        border-bottom: 3px solid rgb(255,195,56);
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Futura', sans-serif;
+    }
+
+}

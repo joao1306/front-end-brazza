@@ -1,0 +1,53 @@
+.inicio{
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.background_inicio{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.logo-apresentacao{
+    width: 25%;
+    margin-top: 25vh;
+}
+
+.seta{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 3rem;
+    animation: moveUp 1.5s linear infinite;
+}
+
+@media (max-width: 361px) {
+
+    .background_inicio{
+        width: 270vw;
+        height: 100vh;
+        position: absolute;
+        margin-right: 19vw;
+        z-index: -1;
+    }
+
+    .logo-apresentacao{
+        width: 75vw;
+        margin-top: 32vh;
+        margin-bottom: 10vh;
+    }
+
+    .seta{
+        font-size: 4rem;
+    }
+
+}

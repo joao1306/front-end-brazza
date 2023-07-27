@@ -1,0 +1,278 @@
+.corpo-cardapio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.divisoria{
+    width: 100vw;
+    height: 12vh;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to bottom, #000000, #00000000);
+}
+
+.backgroundcardapio{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
+}
+
+.lanche{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.seta-cardapio{
+    background: none;
+    outline: none;
+    border-style: none;
+}
+
+.seta-titulo-lanche:hover{
+    color: rgb(255,195,56);
+    transition: 0.2s;
+}
+
+.info-lanche{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titulo-lanche-box{
+    width: 70%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.seta-titulo-lanche{
+    color: white;
+    font-size: 4rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.titulo-lanche{
+    font-family: FORQUE;
+    font-size: 6rem;
+    color: white;
+}
+
+.foto-hamburguer{
+    width: 60%;
+    margin-top: 5vh;
+}
+
+.botao-embrazzar{
+    display: none;
+    margin-top: 6vh;
+    font-family: Futura;
+    background-color: transparent;
+    color: white;
+    border-radius: 2rem;
+    outline: none;
+    border: 2px rgb(255,195,56) solid;
+    width: 40%;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.botao-embrazzar:hover{
+    background-color: rgb(255,195,56);
+    width: 30%;
+    transition: 0.3s;
+    color: black;
+}
+
+.box-valores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.valor-lanche-box{
+    width: 80vw;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.line-valor-lanche {
+    height: 12vh;
+    width: 0.3vw;
+    margin-right: 1vw;
+}
+
+.valor{
+    color: white;
+    font-family: Futura;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+h4{
+    color: rgb(255,195,56);
+    font-family: Futura;
+    font-size: 2rem;
+}
+
+.ingredientes{
+    width: 100%;
+    height: 30%;
+    margin-top: 10vh;
+    font-family: Futura;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.box-ingredientes{
+    height: 100%;
+    width: 40%;
+}
+
+.titulo-box-ingredientes{
+    font-size: 4rem;
+    font-weight: bold;
+    border-left: .4rem rgb(255,195,56) solid;
+    padding-left: 4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white;
+}
+
+ul {
+    list-style-type: disc;
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 70%;
+    padding-left: 8%;
+    color: white;
+    overflow-y: scroll;
+}
+
+li {
+    font-size: 2rem;
+    margin-bottom: 2%;
+
+}
+
+
+@media (max-width: 361px) {
+
+    .corpo-cardapio{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .lanche{
+        margin-top: 30vh;
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .titulo-lanche{
+        font-family: FORQUE;
+        font-size: 4.5rem;
+        color: white;
+    }
+
+    .seta-titulo-lanche{
+        color: white;
+        font-size: 2.3rem;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .valor{
+        color: white;
+        font-family: Futura;
+        font-weight: bold;
+        font-size: 2.8rem;
+    }
+
+    .texto-valor-lanche{
+        width: 43vw;
+    }
+
+    .info-lanche{
+        width: 80vw;
+        height: 60vh;
+        margin-top: 0;
+    }
+
+    .ingredientes{
+        height: 40%;
+        flex-direction: column;
+        overflow-y: scroll;
+        margin-top: 3vh;
+    }
+
+    .titulo-box-ingredientes{
+        font-size: 3rem;
+    }
+
+    li{
+        font-size: 1.5rem;
+    }
+
+    .box-ingredientes{
+        width: 100%;
+    }
+
+    .box-combo{
+        margin-top: 2vh;
+        width: 100%;
+    }
+
+    .botao-embrazzar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        background-color:rgb(255,195,56);
+        color: black;
+        padding: 5px;
+        font-size: 1.8rem;
+        font-family: FuturaBold;
+    }
+
+    .backgroundcardapio{
+        width: 400vw;
+    }
+
+}
