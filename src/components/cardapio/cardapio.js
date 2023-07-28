@@ -14,7 +14,7 @@ export default function Cardapio() {
     useEffect(() => {
       const fetchLanches = async () => {
         try {
-          const response = await axios.get('http://localhost:8800/'); 
+          const response = await axios.get('https://back-end-brazza.vercel.app/'); 
           setLanches(response.data);
         } catch (error) {
           console.error('Erro ao buscar lanches:', error);
