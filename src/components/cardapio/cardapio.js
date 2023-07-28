@@ -45,6 +45,8 @@ export default function Cardapio() {
 
     let valor_artesanal = lanches[index_atual]?.valor_artesanal?.toFixed(2) || '0.00';
     let valor_combo = lanches[index_atual]?.valor_combo?.toFixed(2) || '0.00';
+    let descricao_artesanal = lanches[index_atual].descricao_ingredientes;
+    let descricao_combo = lanches[index_atual].descricao_combo;
     
 
     return (
@@ -82,23 +84,13 @@ export default function Cardapio() {
                     <div className="box-ingredientes">
                         <h2 className="titulo-box-ingredientes">Ingredientes</h2>
                         <ul>
-                            <li>Pão brioche</li>
-                            <li>Blend 200g</li>
-                            <li>Maionese</li>
-                            <li>Queijo</li>
-                            <li>Bacon</li>
-                            <li>Alface</li>
-                            <li>Tomate</li>
+                            <li>{descricao_artesanal}</li>
                         </ul>
                     </div>
                     <div className="box-ingredientes box-combo">
                         <h2 className="titulo-box-ingredientes">Combo</h2>
                         <ul>
-                            <li>Artesanal</li>
-                            <li>Batata Prinkles</li>
-                            <li>Coca-Cola 300ml</li>
-                            <li>Maionese 30g</li>
-                            <li>Katchup</li>
+                            <li>{descricao_combo}</li>
                         </ul>
                     </div>
                 </div>
