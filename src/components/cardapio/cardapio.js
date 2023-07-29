@@ -52,7 +52,7 @@ export default function Cardapio() {
     return (
         <div className="corpo-cardapio" id="corpo_cardapio">
             <div className="divisoria"></div>
-            <img src={background_cardapio} alt="" className="backgroundcardapio"/>
+            <img src={background_cardapio} alt="fundo" className="backgroundcardapio"/>
             <div className="lanche">
                 <div className="titulo-lanche-box">
                     <button className="seta-cardapio" onClick={setaEsquerda}><FontAwesomeIcon icon={faArrowLeft} className="fa-solid fa-arrow-left seta-titulo-lanche" /></button>

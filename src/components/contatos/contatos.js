@@ -28,9 +28,9 @@ export default function Contatos() {
                     <p><span className="hora">19h</span> às <span className="hora">00h</span></p>
                 </div>
                 <div className="icon-box">
-                    <a href="www.google.com" className="link-contato"><img src={whatsapp}  className='i' /></a>
-                    <a href="www.google.com" className="link-contato"><img src={instagram} className='i' /></a>
-                    <a href="www.google.com" className="link-contato"><img src={facebook}  className='i' /></a>
+                    <a href="www.google.com" className="link-contato"><img src={whatsapp}  className='i' alt='whatsapp' /></a>
+                    <a href="www.google.com" className="link-contato"><img src={instagram} className='i' alt='instagram'/></a>
+                    <a href="www.google.com" className="link-contato"><img src={facebook}  className='i' alt='facebook'/></a>
                     <a href="www.google.com" className="link-contato"><img src={ifood} alt="ifood" className="ifood-icon"/></a>
                 </div>
                 <div className="text">
