@@ -43,11 +43,16 @@ export default function Cardapio() {
         }
     }
 
+    function mapItems(arr){
+        return arr.map((ingrediente, index)=>(
+            <li key={index}>{ingrediente}</li>
+        ))
+    }
+
     let valor_artesanal = lanches[index_atual]?.valor_artesanal?.toFixed(2) || '0.00';
     let valor_combo = lanches[index_atual]?.valor_combo?.toFixed(2) || '0.00';
-    let descricao_artesanal = lanches[index_atual].descricao_ingredientes;
-    let descricao_combo = lanches[index_atual].descricao_combo;
-    
+    let descricao_artesanal = JSON.parse(lanches[index_atual]?.descricao_ingredientes || '[]');
+    let descricao_combo = JSON.parse(lanches[index_atual]?.descricao_combo || '[]');
 
     return (
         <div className="corpo-cardapio" id="corpo_cardapio">
@@ -84,13 +89,13 @@ export default function Cardapio() {
                     <div className="box-ingredientes">
                         <h2 className="titulo-box-ingredientes">Ingredientes</h2>
                         <ul>
-                            <li>{descricao_artesanal}</li>
+                            {mapItems(descricao_artesanal)}
                         </ul>
                     </div>
                     <div className="box-ingredientes box-combo">
                         <h2 className="titulo-box-ingredientes">Combo</h2>
                         <ul>
-                            <li>{descricao_combo}</li>
+                            {mapItems(descricao_combo)}
                         </ul>
                     </div>
                 </div>

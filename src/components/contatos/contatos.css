@@ -139,7 +139,7 @@ p{
 }
 
 
-@media (max-width: 361px){
+@media (max-width: 420px){
 
     #corpo_contatos{
         flex-direction: column;
