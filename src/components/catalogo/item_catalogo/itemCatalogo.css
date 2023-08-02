@@ -1,0 +1,31 @@
+.corpo_item_catalogo{
+    width: 23rem;
+    height: 23rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.foto_item_catalogo{
+    width: 200px;
+    transition: 0.3s;
+}
+
+.foto_item_catalogo:hover{
+    width: 250px;
+}
+
+.titulo_item_catalogo{
+    font-family: FORQUE;
+    font-size: 4rem;
+    margin-top: 2rem;
+    color: white;
+    transition: .2s;
+}

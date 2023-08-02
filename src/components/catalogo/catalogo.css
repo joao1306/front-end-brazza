@@ -1,0 +1,64 @@
+.corpo_catalogo{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.background_catalogo{
+    width: 100%;
+    position: absolute;
+}
+
+.container_items{
+    width: 100vw;
+    height: 65vh;
+    margin-top: 28vh;
+    display:flex;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.modal_button{
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+}
+
+.titulo_catalogo{
+    position: absolute;
+    top: 14vh;
+    font-family: FuturaBold;
+    color: rgb(255, 255, 255);
+    font-size: 10rem;
+    z-index: 10;
+}
+
+.divisoria_catalogo{
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+@media (max-width: 420px){
+
+    .titulo_catalogo{
+        margin-top: 6vh;
+        font-size: 5rem;
+    }
+
+    .background_catalogo{
+        width: 300vw;
+    }
+
+}

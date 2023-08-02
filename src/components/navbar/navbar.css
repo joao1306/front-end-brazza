@@ -27,7 +27,7 @@
 .box-botoes{
     margin-right: 5%;
     height: 100%;
-    width: 25%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,7 +56,7 @@ a{
 @media (max-width: 420px) {
 
     .navbar{
-        height: 20vh;
+        height: 18vh;
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -82,10 +82,11 @@ a{
     }
     
     .box-botoes{
-        height: 25%;
-        width: 80vw;
+        height: 20%;
+        width: 90vw;
         margin-right: 0;
-        margin-bottom: 2vh;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
         display: flex;
         align-items: center;
         justify-content: space-between;

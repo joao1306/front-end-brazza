@@ -14,7 +14,8 @@ export default function Navbar() {
         <img src={logo_nome} alt="BRAZZA" className="logo-nav"/>
         <div className="box-botoes">
             <button className="botao-nav"><a href="#home">Início</a></button>
-            <button className="botao-nav"><a href="#corpo_cardapio">Cardápio</a></button>
+            <button className="botao-nav"><a href="#corpo_cardapio">Espiar</a></button>
+            <button className="botao-nav"><a href="#corpo_catalogo">Cardápio</a></button>
             <button className="botao-nav"><a href="#corpo_contatos">Contato</a></button>
         </div>
     </div>

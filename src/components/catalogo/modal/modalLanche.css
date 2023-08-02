@@ -1,0 +1,81 @@
+.corpo_modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    backdrop-filter: blur(3px);
+    overflow: hidden;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.close_button{
+    position: fixed;
+    top: 2vh;
+    right: 2vw;
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+    font-family: FuturaBold;
+    font-size:3rem;
+    color: rgb(255,195,56);
+    cursor: pointer;
+}
+
+.fotos{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_modal{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.imagem_modal{
+    width: 70%;
+}
+
+.titulo_info_modal{
+    font-family: FORQUE;
+    color: white;
+    font-size: 12rem;
+}
+
+.pedir_wpp_modal{
+    margin-top:15rem ;
+    width: 50%;
+    height: 8%;
+    border-radius: 5rem;
+    background-color: rgb(255,195,56);
+    font-family: FuturaBold;
+    font-size: 2rem;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+.pedir_wpp_modal:active{
+    background-color:rgb(245, 176, 14);
+}
+
+.valor_modal{
+    margin-top:5rem;
+}
+
+.ingredientes_modal{
+    margin-top: 3rem;
+}
