@@ -6,7 +6,7 @@ export default function ModalLanche( {onClose} ) {
     <div className='corpo_modal'>
         <button onClick={onClose} className='close_button'> x </button>
         <div className='fotos'>
-            <img src='https://yata-apix-12c626c1-c4e5-440f-9a8a-6cb1537cb8fa.s3-object.locaweb.com.br/c8f4943997624b90b9c5a73d77a18c89.png' className='imagem_modal'></img>
+            <img src='https://yata-apix-12c626c1-c4e5-440f-9a8a-6cb1537cb8fa.s3-object.locaweb.com.br/c8f4943997624b90b9c5a73d77a18c89.png' alt='#' className='imagem_modal'></img>
         </div>
 
         <div className='info_modal'>
