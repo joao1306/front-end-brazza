@@ -1,11 +1,11 @@
 .corpo_item_catalogo{
-    width: 23rem;
-    height: 23rem;
+    width: 30rem;
+    height: 28rem;
     margin: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-end;
     border-radius: 2rem;
     position: relative;
     overflow: hidden;
@@ -19,7 +19,7 @@
 }
 
 .foto_item_catalogo:hover{
-    width: 250px;
+    width: 220px;
 }
 
 .titulo_item_catalogo{
@@ -28,4 +28,28 @@
     margin-top: 2rem;
     color: white;
     transition: .2s;
+}
+
+
+@media (max-width: 420px){
+    .corpo_item_catalogo{
+        width: 14rem;
+        height: 18rem;
+    }
+
+    .titulo_item_catalogo{
+        font-size: 2.5rem;
+    }
+
+    .foto_item_catalogo{
+        width: 12rem;
+    }
+    
+    .foto_item_catalogo:active{
+        width: 13rem;
+    }
+    
+    .foto_item_catalogo:hover{
+        width: 13rem;
+    }
 }

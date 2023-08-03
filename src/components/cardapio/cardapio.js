@@ -64,7 +64,7 @@ export default function Cardapio() {
                     <h1 className="titulo-lanche">{lanches[index_atual].nome}</h1>
                     <button className="seta-cardapio" onClick={setaDireita}><FontAwesomeIcon icon={faArrowRight} className="fa-solid fa-arrow-right seta-titulo-lanche" /></button>
                 </div>
-                <img src={baconbrazza} alt="foto do lanche" className="foto-hamburguer"/>
+                <img src={lanches[index_atual].foto} alt="foto do lanche" className="foto-hamburguer"/>
                 <button className="botao-embrazzar"> EMBRAZZAR </button>
             </div>
             

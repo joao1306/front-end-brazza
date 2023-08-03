@@ -20,6 +20,7 @@
 
 .logo-contato{
     width: 60%;
+    margin-top: 14vh;
     z-index: 1;
 }
 
@@ -50,6 +51,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 8vh;
 }
 
 .info-box > h1{
