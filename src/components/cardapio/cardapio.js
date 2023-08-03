@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import './cardapio.css'
 import background_cardapio from './midia_cardapio/backgroundcardapio.png'
-import baconbrazza from './midia_cardapio/baconbrazza.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 

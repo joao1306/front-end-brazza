@@ -1,6 +1,5 @@
 import React from 'react';
 import './catalogo.css';
-import ItemCatalogo from './item_catalogo/itemCatalogo';
 import ModalLanche from './modal/modalLanche'
 import {useState, useEffect} from 'react'
 import backgroundCatalogo from './midia_catalogo/backgroundcatalogo.png'
@@ -48,7 +47,7 @@ export default function Catalogo() {
 
   function mapItems(arr){
     return arr.map((ingrediente, index)=>(
-      <button onClick={() => openModal(ingrediente.foto, ingrediente.nome, ingrediente.descricao_ingredientes, ingrediente.descricao_combo, ingrediente.valor_artesanal, ingrediente.valor_combo)} className='modal_button'>
+      <button key={index} onClick={() => openModal(ingrediente.foto, ingrediente.nome, ingrediente.descricao_ingredientes, ingrediente.descricao_combo, ingrediente.valor_artesanal, ingrediente.valor_combo)} className='modal_button'>
         <div className='corpo_item_catalogo hvr'>
           <img src={ingrediente.foto} alt='foto ilustrativa' className='foto_item_catalogo'></img>
           <h1 className='titulo_item_catalogo'>{ingrediente.nome}</h1>

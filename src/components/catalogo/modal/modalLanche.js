@@ -1,8 +1,6 @@
 import React from 'react'
-import {useEffect,useState} from 'react'
 import './modalLanche.css'
-import axios from 'axios';
-import Catalogo from '../catalogo'
+
 
 export default function ModalLanche( {fotoSelecionada, nomeSelecionado, descricao, combo, vArt, vCombo, onClose} ) {
 
