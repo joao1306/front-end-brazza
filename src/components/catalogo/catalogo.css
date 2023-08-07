@@ -33,6 +33,9 @@
     background-color: transparent;
     outline: none;
     border-style: none;
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
 }
 
 .titulo_catalogo{
@@ -50,6 +53,31 @@
     position: absolute;
     z-index: 1;
     top: 0;
+}
+
+.corpo_item_catalogo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto_item_catalogo{
+    width: 80%;
+    transition:.3s;
+}
+
+.foto_item_catalogo:hover{
+    width: 90%;
+}
+
+.titulo_item_catalogo{
+    font-family: FORQUE;
+    font-size: 4rem;
+    margin-top: 1.5rem;
+    color: white;
 }
 
 @media (max-width: 420px){

@@ -1,6 +1,6 @@
 .corpo_item_catalogo{
-    width: 30rem;
-    height: 28rem;
+    width: 100%;
+    height: 100%;
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -11,15 +11,14 @@
     overflow: hidden;
     background-color: transparent;
     cursor: pointer;
+    background-color: white;
 }
 
-.foto_item_catalogo{
-    width: 200px;
-    transition: 0.3s;
-}
-
-.foto_item_catalogo:hover{
-    width: 220px;
+.foto_teste{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    z-index: 10;
 }
 
 .titulo_item_catalogo{

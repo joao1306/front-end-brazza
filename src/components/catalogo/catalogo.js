@@ -49,7 +49,7 @@ export default function Catalogo() {
     return arr.map((ingrediente, index)=>(
       <button key={index} onClick={() => openModal(ingrediente.foto, ingrediente.nome, ingrediente.descricao_ingredientes, ingrediente.descricao_combo, ingrediente.valor_artesanal, ingrediente.valor_combo)} className='modal_button'>
         <div className='corpo_item_catalogo hvr'>
-          <img src={ingrediente.foto} alt='foto ilustrativa' className='foto_item_catalogo'></img>
+          <img className='foto_item_catalogo' src={ingrediente.foto} alt='foto catalogo'></img>
           <h1 className='titulo_item_catalogo'>{ingrediente.nome}</h1>
         </div>
       </button>
