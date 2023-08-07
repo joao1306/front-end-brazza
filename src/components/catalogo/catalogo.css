@@ -36,6 +36,7 @@
     width: 200px;
     height: 250px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .titulo_catalogo{
@@ -95,5 +96,15 @@
         width: 100%;
         height: 70%;
         margin-top: 60%;
+        justify-content: center;
     }
+
+    .modal_button{
+        width: 45%;
+    }
+
+    .titulo_item_catalogo{
+        font-size:3rem ;
+    }
+
 }

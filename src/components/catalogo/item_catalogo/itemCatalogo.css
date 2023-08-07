@@ -32,8 +32,8 @@
 
 @media (max-width: 420px){
     .corpo_item_catalogo{
-        width: 14rem;
-        height: 18rem;
+        width: 10rem;
+        height: 14rem;
     }
 
     .titulo_item_catalogo{
@@ -50,5 +50,9 @@
     
     .foto_item_catalogo:hover{
         width: 13rem;
+    }
+
+    .modal_button{
+        background-color: white;
     }
 }

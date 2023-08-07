@@ -102,18 +102,37 @@
 
     .ingredientes_modal{
         flex-direction: row;
+        overflow-y: scroll;
         width: 100vw;
+        height: 40vh;
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+    }
+
+    .box_ingredientes{
+        width: 30%;
+        overflow-x: hidden;
     }
 
     ul{
         width: 40%;
         padding-right: 0;
+        padding: 0 0 0 0;
         margin: 0;
+        margin-right: 0;
     }
-    .box_ingredientes{
-    }
+
     .titulo_box_ingredientes{
         margin-right: 0;
         margin-left: 0;
+    }
+
+    .pedir_wpp_modal{
+        margin-top: 0;
+    }
+
+
+    .valor_lanche_box{
+        width: 20px;
     }
 }
