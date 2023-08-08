@@ -25,25 +25,25 @@ export default function ModalLanche( {fotoSelecionada, nomeSelecionado, descrica
         <div className='info_modal'>
             <h1 className='titulo_info_modal'>{nomeSelecionado}</h1>
             <div className="ingredientes ingredientes_modal">
-                <div className="box-ingredientes">
-                    <h2 className="titulo-box-ingredientes">Ingredientes</h2>
-                    <ul>
+                <div className="box_ingredientes">
+                    <h2 className="titulo_box_ingredientes">Ingredientes</h2>
+                    <ul className='bloco_de_itens'>
                         {mapItems(descricao_artesanal)}
                     </ul>
-                    <div className="valor-lanche-box valor_modal">
-                        <div className="texto-valor-lanche">
+                    <div className="valor_lanche_box valor_modal">
+                        <div className="texto_valor_lanche">
                             <h2 className="valor">R$ {valor_artesanal}</h2>
                             <h4>Artesanal</h4>
                         </div>
                     </div>
                 </div>
-                <div className="box-ingredientes box-combo">
-                    <h2 className="titulo-box-ingredientes">Combo</h2>
-                    <ul>
+                <div className="box_ingredientes box_combo">
+                    <h2 className="titulo_box_ingredientes">Combo</h2>
+                    <ul className='bloco_de_itens'>
                         {mapItems(descricao_combo)}
                     </ul>
-                    <div className="valor-lanche-box valor_modal">
-                        <div className="texto-valor-lanche">
+                    <div className="valor_lanche_box valor_modal">
+                        <div className="texto_valor_lanche">
                             <h2 className="valor">R$ {valor_combo}</h2>
                             <h4>Artesanal</h4>
                         </div>

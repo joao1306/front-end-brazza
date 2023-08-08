@@ -14,6 +14,19 @@
     transition: 0.3s;
 }
 
+.titulo_box_ingredientes{
+    margin-top: 50px;
+    width: 100%;
+    height: 15%;
+    color: white;
+    font-family: FuturaBold;
+    font-size: 4rem;
+    border-left: .4rem rgb(255,195,56) solid;
+    padding-left: 10px;
+    margin-bottom: 10%;
+
+}
+
 .close_button{
     position: fixed;
     top: 2vh;
@@ -49,11 +62,16 @@
     width: 70%;
 }
 
+.valor{
+    font-size: 4rem;
+}
+
 .titulo_info_modal{
     font-family: FORQUE;
     color: white;
     font-size: 12rem;
 }
+
 
 .pedir_wpp_modal{
     margin-top:15rem ;
@@ -110,29 +128,72 @@
     }
 
     .box_ingredientes{
-        width: 30%;
+        width: 50%;
         overflow-x: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     ul{
-        width: 40%;
-        padding-right: 0;
-        padding: 0 0 0 0;
-        margin: 0;
-        margin-right: 0;
+        width: 100%;
+        height: 35%;
+        margin-left: 6vw;
+        overflow-y: scroll;
+    }
+
+    li{
+        width: 100%;
     }
 
     .titulo_box_ingredientes{
-        margin-right: 0;
-        margin-left: 0;
+        font-size: 2.8rem;
+        width: 80%;
+        height: 10%;
+        margin-left:6vw;
+        margin-top: 4%;
+    }
+
+    .texto_valor_lanche{
+        margin-left:6vw;
     }
 
     .pedir_wpp_modal{
         margin-top: 0;
     }
 
+    .valor{
+        width: 50vw;
+        font-size: 2.8rem;
+        top: 0;
+    }
+
+    .bloco_de_itens{
+        margin-bottom: 0;
+    }
+
+    .bloco_de_itens{
+        margin-right: 0;
+        padding-right: 0;
+
+    }
+    
+    .info_modal{
+        margin-right: 0;
+        justify-content: center;
+        align-items: center;
+    }
 
     .valor_lanche_box{
         width: 20px;
     }
+
+    .texto_valor_lanche{
+        margin-top: 0;
+    }
+
+    .ingredientes_modal{
+        height: 30vh;
+    }
+
 }
