@@ -45,7 +45,7 @@ export default function ModalLanche( {fotoSelecionada, nomeSelecionado, descrica
                     <div className="valor_lanche_box valor_modal">
                         <div className="texto_valor_lanche">
                             <h2 className="valor">R$ {valor_combo}</h2>
-                            <h4>Artesanal</h4>
+                            <h4>Combo</h4>
                         </div>
                     </div>
                 </div>

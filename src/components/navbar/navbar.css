@@ -21,7 +21,11 @@
 
 .logo-nav{
     width: 100px;
+}
+
+.botao-logo-navbar{
     margin-left: 5%;
+    cursor: auto;
 }
 
 .box-botoes{
@@ -54,6 +58,11 @@ a{
 }
 
 @media (max-width: 420px) {
+
+    .botao-logo-navbar{
+        margin-left: 0;
+        cursor: auto;
+    }
 
     .navbar{
         height: 18vh;

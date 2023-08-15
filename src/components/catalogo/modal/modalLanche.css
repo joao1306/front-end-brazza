@@ -147,7 +147,7 @@
     }
 
     .titulo_box_ingredientes{
-        font-size: 2.8rem;
+        font-size: 2.4rem;
         width: 80%;
         height: 10%;
         margin-left:6vw;
@@ -159,17 +159,13 @@
     }
 
     .pedir_wpp_modal{
-        margin-top: 0;
+        margin-top: 3rem;
     }
 
     .valor{
         width: 50vw;
         font-size: 2.8rem;
         top: 0;
-    }
-
-    .bloco_de_itens{
-        margin-bottom: 0;
     }
 
     .bloco_de_itens{
@@ -195,5 +191,7 @@
     .ingredientes_modal{
         height: 30vh;
     }
+
+
 
 }
